@@ -55,11 +55,7 @@ def search_results():
         return jsonify({'results': []})
     
     # Add cybersecurity context to the search query
-<<<<<<< HEAD
     search_query = f"{query} intext:cybersecurity | intext:Information Security |intext:ethical hacking | intext:penetration testing | intext:security | inurl:cybersecurity | inurl:ethical hacking | inurl:penetration testing | inurl:security"
-=======
-    search_query = f"{query} cybersecurity"
->>>>>>> main
     results = []
     
     try:
